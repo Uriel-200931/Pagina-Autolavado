@@ -9,10 +9,12 @@ body {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/R.jfif);
 }
 #login {
-    height: 800px;
-    width: 360px;
+    height: auto;
+    min-height: 600px;
+    width: 30vw;
+    min-width: 330px;
     margin: 0px auto;
-    padding: 50px;
+    padding: 5vw;
     color: aliceblue;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.6);
