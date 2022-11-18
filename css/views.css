@@ -294,6 +294,8 @@ body {
 }
 
 .FormCliente form {
+    padding-top: 2vw;
+    
     box-shadow: 1px 1px 10px 1px #2b2626;
     min-height: 32px;
     min-width: 310px;
@@ -437,7 +439,7 @@ body {
     }
 
     #main {
-        background-color: #ffffff;
+        background-color: #a01414;
         transition: margin-left .5s;
         margin-left: 0px;
     }
@@ -454,12 +456,19 @@ body {
 
     }
 
+    #datostabla2 {
+        font-size: 100%;
+    }
 
+    .Ticket2 {
+       font-size: 80%;
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
     .datostabla {
-        margin: 25px 0;
+        /* margin: 5px 0; */
         font-size: 75%;
         width: 100%;
         min-width: 100%;
@@ -468,7 +477,7 @@ body {
     }
 
     #main {
-        /* background-color: #ffffff; */
+        background-color: #ffffff;
         transition: margin-left .5s;
         margin-left: 0px;
     }
@@ -483,6 +492,14 @@ body {
         width: 0px;
         transition: 0.5s;
 
+    }
+
+    #datostabla2 {
+        font-size: 84%;
+    }
+
+    .Ticket2 {
+       font-size: 70%;
     }
 
 }

@@ -10,9 +10,9 @@ body {
 }
 #login {
     height: auto;
-    min-height: 600px;
+    min-height: 330px;
     width: 30vw;
-    min-width: 330px;
+    min-width: 240px;
     margin: 0px auto;
     padding: 5vw;
     color: aliceblue;
